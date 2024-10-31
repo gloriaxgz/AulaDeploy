@@ -3,4 +3,4 @@ plotly
 pandas
 seaborn
 dash
-scikitlearn
+scikit-learn
