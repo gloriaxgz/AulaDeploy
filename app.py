@@ -17,14 +17,14 @@ st.write(df.describe())
 
 #cos interativos
 st.subheader(st.write("nome do sub cabeçalho"))
-st.write("escreve mais coisas")
+st.write("Gráfico Scatterplot")
 scatter_plot = sns.scatterplot(data=df, x='petal_length', y='petal_width', hue='species') #seaborn
 
 st.pyplot(scatter_plot.figure)
 
 #graficos interativos
 st.subheader(st.write("nome do sub cabeçalho"))
-st.write("escreve mais coisas")
+st.write("Gráfico Histplot")
 hist_plot = sns.histplot(data=df, x='sepal_length', hue='species', multiple='stack') #seaborn
 
 st.pyplot(hist_plot.figure)
