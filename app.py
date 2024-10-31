@@ -25,6 +25,6 @@ st.pyplot(scatter_plot.figure)
 #graficos interativos
 st.subheader(st.write("nome do sub cabeçalho"))
 st.write("Gráfico Histplot")
-hist_plot = sns.histplot(data=df, x='sepal_length', hue='species', multiple='stack') #seaborn
+hist_plot = sns.histplot(data=df, x='sepal_length', hue='species') #seaborn
 
 st.pyplot(hist_plot.figure)
