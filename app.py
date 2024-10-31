@@ -1,4 +1,3 @@
-import dash
 import streamlit as st
 import seaborn as sns
 from sklearn import datasets
